@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.stqa.selenium.tests.Test_open" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-22T14:00:00" hostname="DESKTOP-LK65459" time="0.028">
+<testsuite name="ru.stqa.selenium.tests.Test_open" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-22T18:06:54" hostname="DESKTOP-LK65459" time="0.002">
   <properties/>
-  <testcase name="testOpen" classname="ru.stqa.selenium.tests.Test_open" time="0.028"/>
+  <testcase name="testOpen" classname="ru.stqa.selenium.tests.Test_open" time="0.002"/>
   <system-out><![CDATA[РћС‚РєСЂС‹С‚СЊ Р±СЂР°СѓР·РµСЂ
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

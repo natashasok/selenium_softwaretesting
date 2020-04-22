@@ -13,8 +13,9 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     private final Properties properties;
-    public WebDriver wd;
+   public WebDriver wd;
     private String browser;
+    private SessionHelper sessionHelper;
 
 
     public ApplicationManager(String browser){
@@ -35,9 +36,10 @@ public class ApplicationManager {
             }
         wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         wd.get(properties.getProperty("web.baseUrl"));
-
-
+        sessionHelper = new SessionHelper(wd);
+        sessionHelper.login(properties.getProperty("web.adminLogin"), properties.getProperty("web.adminPassword"));
     }
+
 
     public void stop() {
         wd.quit();

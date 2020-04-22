@@ -9,7 +9,7 @@ public class Test_open extends TestBase {
 
     @Test
     public void testOpen() {
-        app.wd.findElement(By.name("btnK"));
-        System.out.println("Открыть браузер");
+
+        System.out.println("Открыт браузер");
     }
 }
