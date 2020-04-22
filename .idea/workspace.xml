@@ -40,6 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1atNasJzRitwtaAAK4MEAS1PJvO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,13 +48,70 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/selenium_tests/build.gradle" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java_pft_softwaretesting/addressbook-web-tests/build.gradle" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Test_open">
+    <configuration name="Test_open" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/selenium_tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.selenium.tests.Test_open&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_open.testOpen" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/selenium_tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.selenium.tests.Test_open.testOpen&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'ru.stqa.selenium.tests'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/selenium_tests" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ru.stqa.selenium.tests.*&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="selenium_softwaretesting" />
       <option name="VM_PARAMETERS" />
@@ -101,6 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Test_open" />
+        <item itemvalue="Gradle.Test_open.testOpen" />
+        <item itemvalue="Gradle.Tests in 'ru.stqa.selenium.tests'" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -124,13 +189,33 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1587552226252" />
-    <state x="421" y="50" key="FileChooserDialogImpl" timestamp="1587552541792">
+    <state x="421" y="50" key="FileChooserDialogImpl" timestamp="1587555816241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="50" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587552541792" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1587552637356">
+    <state x="421" y="50" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587555816241" />
+    <state width="1202" height="303" key="GridCell.Tab.0.bottom" timestamp="1587563055646">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587552637356" />
+    <state width="1202" height="303" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587563055646" />
+    <state width="1202" height="303" key="GridCell.Tab.0.center" timestamp="1587563055646">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="303" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587563055646" />
+    <state width="1202" height="303" key="GridCell.Tab.0.left" timestamp="1587563055646">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="303" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587563055646" />
+    <state width="1202" height="303" key="GridCell.Tab.0.right" timestamp="1587563055646">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1202" height="303" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587563055646" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1587562531446">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587562531446" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1587554522735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1587554522735" />
   </component>
 </project>
